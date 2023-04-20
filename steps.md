@@ -79,3 +79,29 @@ npm install zod
 
 #### 11.4 Add .env to .gitignore
 
+### 12. Configuring ESLint
+
+#### 12.1 Install the eslint extension
+
+```bash
+npm install eslint -D
+```
+ > with rocketseat config
+```bash
+npm i @rocketseat/eslint-config -D
+```
+
+#### 12.2 Create the .eslintrc.json file
+
+```json
+{
+  "extends": "@rocketseat/eslint-config/node"
+}
+```
+
+#### 12.2 Create the .eslintignore file
+
+```json
+node_modules
+build
+```
