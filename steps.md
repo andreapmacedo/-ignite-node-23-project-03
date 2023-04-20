@@ -116,3 +116,46 @@ build
       "@/*": ["./src/*"]                                     /* Specify a set of entries that re-map imports to additional lookup locations. */
     },  
 ```
+
+### 14. Add Prisma ORM
+
+#### 14.1 Install the Prisma extension
+
+```bash
+npm install prisma -D
+```
+#### 14.2 Initialize the prisma extension
+
+```bash
+npx prisma init
+```
+
+#### 14.3 Create typescript support
+
+```bash
+npx prisma generate
+```
+
+#### 14.4 Install Prisma Client
+
+```bash
+npm i @prisma/client
+```
+
+#### Hacking the prisma extension
+
+#### Config VSCode settings.json
+
+```json	
+"[prisma]": {
+  "editor.defaultFormatter": "Prisma.prisma",
+  "editor.formatOnSave": true
+},
+```
+
+
+#### listing the commands
+```bash
+npx prisma -h
+```
+
