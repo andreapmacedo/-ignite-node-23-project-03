@@ -105,3 +105,14 @@ npm i @rocketseat/eslint-config -D
 node_modules
 build
 ```
+
+### 13. Add import aliases
+
+#### 13.1 Add script to tsconfig.json
+
+```json
+    "baseUrl": "./",                                     /* Specify the base directory to resolve non-relative module names. */
+    "paths": {
+      "@/*": ["./src/*"]                                     /* Specify a set of entries that re-map imports to additional lookup locations. */
+    },  
+```
