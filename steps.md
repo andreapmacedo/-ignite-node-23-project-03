@@ -60,3 +60,22 @@ npm run start:dev
 
  - Create a .nvmrc file
   - Add the node version to the file
+
+
+### 11. Using environment variables
+#### 11.1 Create the .env file
+
+#### 11.2 Install the dotenv extension
+
+```bash
+npm install dotenv
+```
+
+#### 11.3 Using zod library to validate the environment variables
+
+```bash
+npm install zod
+```
+
+#### 11.4 Add .env to .gitignore
+
