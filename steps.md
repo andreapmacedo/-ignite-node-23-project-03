@@ -55,3 +55,8 @@ npx tsc --init
 ```bash
 npm run start:dev
 ```
+
+### 10. Using the exact npm version
+
+ - Create a .nvmrc file
+  - Add the node version to the file
