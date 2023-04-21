@@ -159,3 +159,12 @@ npm i @prisma/client
 npx prisma -h
 ```
 
+### 15. Add docker
+
+https://hub.docker.com/r/bitnami/postgresql
+
+#### 15.1 Create the docker-compose.yml file
+
+```bash
+docker run --name api-solid-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_DATABASE=apisolid -p 5432:5432 bitnami/postgresql:latest
+```
