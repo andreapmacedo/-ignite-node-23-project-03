@@ -166,5 +166,28 @@ https://hub.docker.com/r/bitnami/postgresql
 #### 15.1 Create the docker-compose.yml file
 
 ```bash
-docker run --name api-solid-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_DATABASE=apisolid -p 5432:5432 bitnami/postgresql:latest
+docker run --name api-solid-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=apisolid -p 5432:5432 bitnami/postgresql
 ```
+
+
+### 16 run the migrations
+
+```bash
+npx prisma migrate dev 
+```
+
+> ao ser questionado sobre o nome da migration, digite algo que descreva a mudança realizada
+
+or 
+```bash
+npx prisma migrate dev --name init
+```
+
+
+#### 16.1 Accessing prisma studio
+
+```bash
+npx prisma studio
+```
+
+
