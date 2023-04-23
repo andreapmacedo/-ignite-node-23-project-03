@@ -190,4 +190,26 @@ npx prisma migrate dev --name init
 npx prisma studio
 ```
 
+### 17. Using docker-compose
+
+#### 17.1 Create the docker-compose.yml file
+
+#### 17.2 Run the docker-compose
+
+```bash
+docker compose up -d
+```
+
+> to stop the docker-compose
+
+```bash
+docker compose stop
+```
+
+> to remove the docker-compose (everything including containers and volumes)
+
+```bash
+docker compose down
+```
+
 
