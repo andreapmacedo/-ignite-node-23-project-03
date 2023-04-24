@@ -212,4 +212,8 @@ docker compose stop
 docker compose down
 ```
 
+### 18. Using bcrypt
 
+```bash
+npm i bcryptjs
+```
