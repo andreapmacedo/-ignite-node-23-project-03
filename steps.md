@@ -217,3 +217,9 @@ docker compose down
 ```bash
 npm i bcryptjs
 ```
+
+### 19. Tests with vitest
+
+```bash
+npm i vitest vite-tsconfig-paths -D
+```
