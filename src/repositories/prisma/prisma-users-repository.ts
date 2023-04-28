@@ -6,7 +6,6 @@ export class PrismaUsersRepository {
     const user = await prisma.user.create({
       data,
     })
-
     return user
   }
 }
