@@ -54,6 +54,7 @@ export class RegisterUseCase {
       password_hash,
     })
 
+    // TODO: return user
     // return {
     //   user,
     // }
