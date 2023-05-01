@@ -15,7 +15,7 @@ model User {
   created_at    DateTime  @default(now())
   CheckIns      CheckIn[]
 
-  @@map("users")
+  @@map("users") // Modify the name of the table from "User" to "users"
 }
 
 model CheckIn {
