@@ -12,5 +12,5 @@ model User {
   name  String
   email String @unique
 
-  @@map("users")
+  @@map("users") // Modifica o nome da tabela no banco de dados. Neste caso o nome seria User e passa a ser users
 }
